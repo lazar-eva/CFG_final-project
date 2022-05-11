@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link
+      rel="stylesheet"
+      href="/Users/alyona/Documents/JS-youtube.js/code first girls/final project/html/contacts.css"
+      type="text/css"
+    />
+
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500;700&family=Metrophobic&family=Monda:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts end -->
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <navbar>
+      <ul class="nav-list">
+        <li class="nav-item logo">
+          <a href="./index.html"
+            ><img src="./logo-long.png" height="60px" width="220px" alt="Logo
+            here"</a
+          >
+        </li>
+
+        <li class="nav-item"><a href="./index.html">Home</a></li>
+        <li class="nav-item"><a href="./recipes.html">Recipes</a></li>
+        <li class="nav-item"><a href="./contacts.html">Contacts</a></li>
+        <li class="nav-item prmry-button">
+          <a
+            href="./404.html"
+            ><button>Donate</button></a
+          >
+        </li>
+      </ul>
+    </navbar>
+    <!-- Navbar end -->
+
+    <!-- Contacts page--> 
+      <div class="container">
+          <div style="text-align:center" id="text-center">
+            <h2>Contact Us</h2>
+            <p>Leave us a message using the form bellow:</p>
+          </div>
+          <div class="contact-container"></div>
+            <div class="row">
+              <div class="column">
+              <img src="https://images.unsplash.com/photo-1594935975218-a3596da034a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" style="width: 100%">
+            </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">Your name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="emailAdress">Your email</label>
+              
+                <input type="email" id="emailAdress" name="email" placeholder="Your email..">
+              
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+
+                <div class="button-case">
+                  <a class="prmry-button"
+                  href="/Users/alyona/Documents/JS-youtube.js/code first girls/final project/html/404.html"
+                  target="_blank"
+                  ><button>Submit</button></a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+     
+
+    <!-- Contacts page end -->
+
+    <!-- Footer -->
+    <footer>
+      <p>copyright No Time To Cook, 2022</p>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
